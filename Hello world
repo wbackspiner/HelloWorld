@@ -1,0 +1,30 @@
+package com.HelloWorld;
+
+public class Shape {
+    String color;
+
+    public Shape(String color) {
+        this.color = color;
+    }
+      public String getColor() {
+        return this.color;
+    }
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+package com.HelloWorld;
+
+public class Main {
+
+    public static void main(String[] args) {
+        System.out.println("Hello world!");
+        Shape tomandjerry = new Shape("Pink");
+        System.out.println(tomandjerry.getColor());
+        tomandjerry.setColor("blue");
+        System.out.println(tomandjerry.getColor());
+        System.out.println(tomandjerry.getColor());
+        tomandjerry.setColor("orange");
+
+    }
+}
